@@ -5,21 +5,21 @@ A demo for a quick, get-the-job-done drop-in dynamic php image scaler
 to generate jpg thumbnails in realtime.
 
 ## Dependencies
-PHP (tested on 7.4)
-GD2 (`yum install php-gd` or `sudo apt-get install php7.0-gd` or similar)
+* PHP (tested on 7.4)  
+* GD2 (`yum install php-gd` or `sudo apt-get install php7.0-gd` or similar)
 
 ## Get started
 Download the project (via Zip or Git download)
 
-in a terminal:
-`cd` into the project root
+in a terminal:  
+1. `cd` into the project root
 
-Run
+2. Run
 ```bash
 php -S localhost:8000
 ```
 
-visit http://localhost:8000/thumbnail.php?file=IMG_9326_Samuel_Pearce.jpg
+3. visit http://localhost:8000/thumbnail.php?file=IMG_9326_Samuel_Pearce.jpg
 
 You will see a photo, which loaded fast, but is only ~600kB rather than the original 5.8MB.
 The url can be treated like any image file, so the thumbnail is invisible to the application.
